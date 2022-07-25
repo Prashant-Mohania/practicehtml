@@ -1,14 +1,51 @@
 body {
   background-color: red;
+  background-image: url(https://images.unsplash.com/photo-1658572322472-fcb40e1fabc4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+}
+
+label {
+  font-size: 24px;
 }
 
 /*
  inline> intenal > external
  */
 
-h1 {
-  color: blue;
+.card {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 30px rgb(0, 0, 0, 0.8);
+  padding: 20px;
+  margin: 50px auto;
 }
+
+.main-heading {
+  color: cyan;
+  font-size: 48px;
+  border: 2px solid rebeccapurple;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.btn {
+  background-color: #cdcdcd;
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 20px 140px;
+}
+
+input, textarea {
+  border: none;
+  border-bottom: 2px solid #cdcdcd;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
 
 #test {
   color: green;
@@ -17,8 +54,4 @@ h1 {
 .text-40 {
   font-size: 40px;
   color: white;
-}
-
-.display{
-    /* display: ; */
 }
